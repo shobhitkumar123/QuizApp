@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple Quiz App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Simple Quiz</h1>
+    <div id="question-container">
+      <div id="question">Question text</div>
+      <form id="answer-form">
+        <div class="answer">
+          <input type="radio" name="answer" id="a" value="a" />
+          <label for="a" id="a_text">Answer A</label>
+        </div>
+        <div class="answer">
+          <input type="radio" name="answer" id="b" value="b" />
+          <label for="b" id="b_text">Answer B</label>
+        </div>
+        <div class="answer">
+          <input type="radio" name="answer" id="c" value="c" />
+          <label for="c" id="c_text">Answer C</label>
+        </div>
+        <div class="answer">
+          <input type="radio" name="answer" id="d" value="d" />
+          <label for="d" id="d_text">Answer D</label>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+      <div id="result"></div>
+    </div>
+  </div>
+  <script src="script1.js"></script>
+</body>
+</html>
